@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 80.409 sec <<< FAILURE! - in TestSuite
+getTitleAndContentOfArticles(com.browserstack.BStackDemoTest)  Time elapsed: 19.529 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.30.0', revision: '509c7f17cc*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f2d58f6dc1495af65883beb9d16997f547f6936c, findElement {using=id, value=didomi-notice-agree-button}]
+Capabilities {automationName: XCUITest, bootstrapPath: /usr/local/.browserstack/co..., browserName: , browserVersion: null, browserstack.isTargetBased: true, bundleId: browserstack.chromium.p.109..., databaseEnabled: false, deviceName: iPhone 15 Pro Max, deviceOrientation: PORTRAIT, javascriptEnabled: true, keychainPassword: [REDACTED VALUE], keychainPath: [REDACTED VALUE], locationContextEnabled: false, networkConnectionEnabled: false, newCommandTimeout: 0, noReset: true, optimalHubUrl: hub-aps.browserstack.com, orientation: PORTRAIT, platform: MAC, platformName: IOS, realMobile: true, takesScreenshot: true, udid: 00008130-000C34D01168001C, useXctestrunFile: true, webStorageEnabled: false}
+Session ID: f2d58f6dc1495af65883beb9d16997f547f6936c
+	at com.browserstack.BStackDemoTest.getTitleAndContentOfArticles(BStackDemoTest.java:57)
+

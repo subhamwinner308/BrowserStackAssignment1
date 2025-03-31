@@ -33,22 +33,22 @@ platforms:
   - os: Windows
     osVersion: 11
     browserName: Chrome
-    browserVersion: latest
+    browserVersion: 132.0
   - os: Windows
     osVersion: 11
     browserName: Edge
-    browserVersion: latest
+    browserVersion: 132.0
   - os: Windows
-    osVersion: 11
+    osVersion: 10
     browserName: Firefox
-    browserVersion: latest
+    browserVersion: 134.0
+  - deviceName: Google Pixel 9 Pro XL
+    osVersion: 15.0
+    browserName: chrome
+    deviceOrientation: portrait
   - deviceName: iPhone 15 Pro Max
     osVersion: 17
     browserName: chromium
-    deviceOrientation: portrait
-  - deviceName: Samsung Galaxy S23 Ultra
-    osVersion: 13.0
-    browserName: chrome
     deviceOrientation: portrait
     
 # =======================

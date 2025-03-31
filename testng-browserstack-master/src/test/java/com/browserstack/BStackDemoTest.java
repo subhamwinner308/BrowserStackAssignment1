@@ -56,7 +56,7 @@ public class BStackDemoTest extends SeleniumTest {
     	driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
     	driver.findElement(By.id("didomi-notice-agree-button")).click();
     	
-    	List<WebElement> articles = driver.findElements(By.xpath("//section[header//a[contains(text(),'Opinión')]]/div/div/article"));
+    	List<WebElement> articles = driver.findElements(By.xpath("//section[header//a[contains(text(),'Opinión')]]/div/article"));
 		
 		HashMap<String, Integer> countHeaders = new HashMap<>();
 		
